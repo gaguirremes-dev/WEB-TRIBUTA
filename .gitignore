@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node (por si se agrega build tool después)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.env
+.env.local
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
