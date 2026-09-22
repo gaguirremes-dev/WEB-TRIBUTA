@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Tributa">
+  <title>Tributa</title>
+  <path d="M5 5 H73 A22 22 0 0 1 95 27 V95 H27 A22 22 0 0 1 5 73 Z"
+        fill="#D93B2B" stroke="#14395E" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M50 17 c-6 11-9 16-9 20.5 a9 9 0 0 0 18 0 C59 33 56 28 50 17 z" fill="#F7F7F7"/>
+  <g fill="none" stroke="#F7F7F7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 33 L50 51 L70 33"/>
+    <path d="M29 62 H71"/>
+    <path d="M50 62 V85"/>
+  </g>
+</svg>
