@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="900" height="640" role="img" aria-label="Mapa de cobertura nacional de la red Tributa">
+  <defs>
+    <linearGradient id="cn-brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D94F40"/>
+      <stop offset="1" stop-color="#A02E22"/>
+    </linearGradient>
+    <radialGradient id="cn-hub" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#C13A2C" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#C13A2C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cn-warm" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#1B3D6B" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#1B3D6B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="cn-grid" width="45" height="45" patternUnits="userSpaceOnUse">
+      <path d="M45 0H0V45" fill="none" stroke="#0F2444" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <style>
+      .cn-lbl { font-family: 'Poppins','Inter',system-ui,sans-serif; font-size: 16px; font-weight: 600; fill: #48566B; }
+      .cn-sub { font-family: 'Inter',system-ui,sans-serif; font-size: 12px; font-weight: 500; fill: #8A99AE; }
+      .cn-hublbl { font-family: 'Poppins','Inter',system-ui,sans-serif; font-size: 15px; font-weight: 700; fill: #0F2444; }
+    </style>
+  </defs>
+
+  <rect width="900" height="640" fill="url(#cn-grid)"/>
+  <rect x="0" y="0" width="900" height="640" fill="url(#cn-warm)"/>
+  <circle cx="450" cy="318" r="250" fill="url(#cn-hub)"/>
+
+  <g stroke="#1B3D6B" stroke-opacity=".28" stroke-width="1.6" stroke-dasharray="6 7" fill="none">
+    <path d="M450 318 L300 176"/>
+    <path d="M450 318 L392 300"/>
+    <path d="M450 318 L228 108"/>
+    <path d="M450 318 L452 486"/>
+    <path d="M450 318 L642 512"/>
+    <path d="M450 318 L678 356"/>
+    <path d="M300 176 L228 108"/>
+    <path d="M452 486 L642 512"/>
+  </g>
+
+  <g>
+    <circle cx="228" cy="108" r="26" fill="#C13A2C" fill-opacity=".1"/>
+    <circle cx="228" cy="108" r="8" fill="#fff" stroke="#1B3D6B" stroke-width="3"/>
+    <text class="cn-lbl" x="248" y="104">Piura</text>
+    <text class="cn-sub" x="248" y="122">HQ regional norte</text>
+
+    <circle cx="300" cy="176" r="30" fill="#C13A2C" fill-opacity=".12"/>
+    <circle cx="300" cy="176" r="9" fill="#fff" stroke="#C13A2C" stroke-width="3.5"/>
+    <text class="cn-lbl" x="322" y="172">Chiclayo</text>
+    <text class="cn-sub" x="322" y="190">Sede · Lapoint 1221</text>
+
+    <circle cx="392" cy="300" r="22" fill="#C13A2C" fill-opacity=".1"/>
+    <circle cx="392" cy="300" r="7" fill="#fff" stroke="#1B3D6B" stroke-width="3"/>
+    <text class="cn-lbl" x="372" y="334">Trujillo</text>
+
+    <circle cx="452" cy="486" r="30" fill="#C13A2C" fill-opacity=".12"/>
+    <circle cx="452" cy="486" r="9" fill="#fff" stroke="#C13A2C" stroke-width="3.5"/>
+    <text class="cn-lbl" x="474" y="482">Lima</text>
+    <text class="cn-sub" x="474" y="500">Sede · Av. República de Chile 324</text>
+
+    <circle cx="642" cy="512" r="22" fill="#C13A2C" fill-opacity=".1"/>
+    <circle cx="642" cy="512" r="7" fill="#fff" stroke="#1B3D6B" stroke-width="3"/>
+    <text class="cn-lbl" x="596" y="546">Arequipa</text>
+
+    <circle cx="678" cy="356" r="22" fill="#C13A2C" fill-opacity=".1"/>
+    <circle cx="678" cy="356" r="7" fill="#fff" stroke="#1B3D6B" stroke-width="3"/>
+    <text class="cn-lbl" x="704" y="352">Cusco</text>
+  </g>
+
+  <g>
+    <circle cx="450" cy="318" r="62" fill="#0F2444" fill-opacity=".05"/>
+    <circle cx="450" cy="318" r="46" fill="#0F2444" fill-opacity=".08"/>
+    <circle cx="450" cy="318" r="34" fill="url(#cn-brand)"/>
+    <path d="M462 305a8.5 8.5 0 0 1 0 12l-6 6a8.5 8.5 0 0 1-12 0" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M438 331a8.5 8.5 0 0 1 0-12l6-6a8.5 8.5 0 0 1 12 0" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/>
+    <circle cx="450" cy="318" r="4.4" fill="#fff"/>
+    <text class="cn-hublbl" x="450" y="392" text-anchor="middle">Red Tributa</text>
+    <text class="cn-sub" x="450" y="412" text-anchor="middle">+20 ciudades conectadas</text>
+  </g>
+</svg>
