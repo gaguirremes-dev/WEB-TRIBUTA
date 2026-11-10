@@ -22,3 +22,7 @@ build/
 
 # Logs
 *.log
+
+# Libro de Reclamaciones (credentials and records)
+config.smtp.php
+reclamaciones/
