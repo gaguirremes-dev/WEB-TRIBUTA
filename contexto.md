@@ -100,7 +100,7 @@ El footer unificará la identidad institucional de Tributa para reflejar su alca
 
 - **Marca Oficial:** TRIBUTA
 - **Línea de Servicio:** Red Contable de Asesoría Financiera, Costos y Compliance para Todo Nivel de Facturación
-- **Correo Electrónico Corporativo:** info@somostributa.com
+- **Correo Electrónico Corporativo:** comercial@somostributa.com
 - **Sede Administrativa (Lima):** Av. República de Chile 324
 - **Sede Comercial (Chiclayo):** Lapoint 1221
 
